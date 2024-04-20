@@ -1,0 +1,165 @@
+using System;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.IO;
+using System.Linq;
+using System.Runtime.Remoting.Contexts;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System.Xml.Linq;
+
+namespace DocumentDistance
+{
+    class DocDistance
+    {
+        // *****************************************
+        // DON'T CHANGE CLASS OR FUNCTION NAME
+        // YOU CAN ADD FUNCTIONS IF YOU NEED TO
+        // *****************************************
+        /// <summary>
+        /// Write an efficient algorithm to calculate the distance between two documents
+        /// </summary>
+        /// <param name="doc1FilePath">File path of 1st document</param>
+        /// <param name="doc2FilePath">File path of 2nd document</param>
+        /// <returns>The angle (in degree) between the 2 documents</returns>
+        /// 
+
+        public static bool IsAlphaNumeric(char letter)
+        {
+            return char.IsLetterOrDigit(letter);
+        }
+
+        public static void Fill_dic(double wordKey, ref Dictionary<double, double> frequency_dic)
+        {
+            if (frequency_dic.TryGetValue(wordKey, out double count))
+            {
+                frequency_dic[wordKey] = count + 1.0;
+            }
+            else
+            {
+                frequency_dic[wordKey] = 1.0;
+            }
+        }
+
+        public static double GetWordKey(string word){
+            double key = 0;
+            foreach (char ch in word)
+            {
+                double ascii = (double)ch;
+                key += Math.Sqrt(ascii) + Math.Log(ascii + 1);
+            }
+            return key;
+        }
+
+        public static double CalculateDistance(string doc1FilePath, string doc2FilePath)
+        {
+            // TODO comment the following line THEN fill your code here
+            //throw new NotImplementedException();
+
+            //Console.WriteLine("\ninput: " + doc1FilePath + " " + doc2FilePath);
+
+            if (doc1FilePath == doc2FilePath)
+            {
+                return 0.0;
+            }
+
+            string doc1Content = File.ReadAllText(doc1FilePath);
+            string doc2Content = File.ReadAllText(doc2FilePath);
+
+            if (string.IsNullOrEmpty(doc1Content) || string.IsNullOrEmpty(doc2Content))
+            {
+                return 90;
+            }
+
+            // Start splitting and calculating frequency of each word in each doc
+
+            Dictionary<double, double> frequency_d1 = new Dictionary<double, double>(),
+                                       frequency_d2 = new Dictionary<double, double>();
+            HashSet<double> words = new HashSet<double>();
+
+            StringBuilder temp = new StringBuilder();
+
+            foreach (char letter in doc1Content)
+            {
+                if (IsAlphaNumeric(letter))
+                {
+                    temp.Append(char.ToLower(letter));
+                    continue;
+                }
+
+                if (temp.Length > 0)
+                {
+                    double wordKey = GetWordKey(temp.ToString());
+                    Fill_dic(wordKey, ref frequency_d1);
+                    words.Add(wordKey);
+                    temp.Clear();
+                }
+            }
+
+            if (temp.Length > 0)
+            {
+                double wordKey = GetWordKey(temp.ToString());
+                Fill_dic(wordKey, ref frequency_d1);
+                words.Add(wordKey);
+                temp.Clear();
+            }
+
+            foreach (char letter in doc2Content)
+            {
+                if (IsAlphaNumeric(letter))
+                {
+                    temp.Append(char.ToLower(letter));
+                    continue;
+                }
+
+                if (temp.Length > 0)
+                {
+                    double wordKey = GetWordKey(temp.ToString());
+                    Fill_dic(wordKey, ref frequency_d2);
+                    words.Add(wordKey);
+                    temp.Clear();
+                }
+            }
+
+            if (temp.Length > 0)
+            {
+                double wordKey = GetWordKey(temp.ToString());
+                Fill_dic(wordKey, ref frequency_d2);
+                words.Add(wordKey);
+            }
+
+            // End splitting and calculating frequency of each word in each doc
+
+            // Start calculating the distance
+
+            double product = 0.0, d1_sum_square = 0.0, d2_sum_square = 0.0;
+
+            foreach (var word in words)
+            {
+                frequency_d1.TryGetValue(word, out double d1Count);
+                frequency_d2.TryGetValue(word, out double d2Count);
+
+                product += d1Count * d2Count;
+                d1_sum_square += d1Count * d1Count;
+                d2_sum_square += d2Count * d2Count;
+            }
+
+            if (product != 0 && d1_sum_square == product && d2_sum_square == product)
+            {
+                return 0;
+            }
+
+            if (product == 0 || d1_sum_square == 0 || d2_sum_square == 0)
+            {
+                return 90;
+            }
+
+            double result = (Math.Acos(product / (Math.Sqrt(d1_sum_square) * Math.Sqrt(d2_sum_square)))) * (180 / Math.PI);
+
+            // End calculating the distance
+
+            return result;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+5
+TestFiles\Sample\1\D1.txt
+TestFiles\Sample\1\D2.txt
+0
+TestFiles\Sample\2\D1.txt
+TestFiles\Sample\2\D2.txt
+60.0
+TestFiles\Sample\3\D1.txt
+TestFiles\Sample\3\D2.txt
+0.0
+TestFiles\Sample\4\D1.txt
+TestFiles\Sample\4\D2.txt
+90.0
+TestFiles\Sample\5\D1.txt
+TestFiles\Sample\5\D2.txt
+58.91
