@@ -1,0 +1,142 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Security.Policy;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Problem
+{
+    // *****************************************
+    // DON'T CHANGE CLASS OR FUNCTION NAME
+    // YOU CAN ADD FUNCTIONS IF YOU NEED TO
+    // *****************************************
+
+    #region Helper structures
+    public struct BoundingBox
+    {
+        public double minX;
+        public double minY;
+        public double maxX;
+        public double maxY;
+    }
+
+    public struct Point
+    {
+        public double X;
+        public double Y;
+    }
+    #endregion
+
+    public static class PROBLEM_CLASS
+    {
+        #region YOUR CODE IS HERE
+
+        //Your Code is Here:
+        //==================
+        /// <summary>
+        /// This function shall find the bounding box of a given convex polygon in an efficient way (i.e. minX, maxX, minY, maxY)..
+        /// </summary>
+        /// <param name="Points">Array of the convex polygon points in counterclockwise order</param>
+        /// <param name="N">The number of the polygon's points</param>
+        /// <returns>BoundingBox object containing the values of the four points of the bounding box</returns>
+
+       public static BoundingBox getAnswers(Point[] Points, int left, int right) { 
+            
+            BoundingBox box = new BoundingBox();
+
+            // base case(1)
+            if (right == left) { 
+                box.maxX = Points[left].X;
+                box.minX = Points[left].X;
+                box.maxY = Points[left].Y;
+                box.minY = Points[left].Y;
+                return box;
+            }
+
+            // base case(2)
+            if (right == left + 1)
+            {
+                box.maxX = Math.Max(Points[left].X, Points[right].X);
+                box.minX = Math.Min(Points[left].X, Points[right].X);
+                box.maxY = Math.Max(Points[left].Y, Points[right].Y);
+                box.minY = Math.Min(Points[left].Y, Points[right].Y);
+                return box;
+            }
+
+           
+            // getting the number of prpcessors
+            int t = Environment.ProcessorCount;
+
+            Task[] tasks = new Task[t];
+
+            int cnt = 0;
+            for (int i = left; i <= right; i += t)
+            {
+                tasks[cnt] = Task.Run(() =>
+                {
+                    getAnswers(Points, i, Math.Min(i + t - 1, right));
+                });
+                cnt++;
+            }
+
+            Task.WaitAll(tasks);
+
+            // non-recursion part
+            box = calculateAnswers(tasks);
+
+            return box;
+        }
+
+        public static BoundingBox calculateAnswers(Task[] tasks)
+        {
+            BoundingBox box = new BoundingBox();
+            for (int i = 0; i < tasks.Length; i++)
+            {
+                BoundingBox temp = (BoundingBox)tasks[i].AsyncState;
+                box.minX = Math.Min(box.minX, temp.minX);
+                box.maxX = Math.Max(box.maxX, temp.maxX);
+                box.maxY = Math.Max(box.maxY, temp.maxY);
+                box.minY = Math.Min(box.minY, temp.minY);
+            }
+            return box;
+        }
+        
+        public static BoundingBox RequiredFunction(Point[] Points, int N)
+        {
+            // initialize the bounding box
+            BoundingBox box = new BoundingBox();
+
+            box = getAnswers(Points, 0, N - 1);
+
+
+            //int left = 0, right = N - 1;
+            //// left is for checking y and x points
+            //// right is for checking y and x points
+            //// O(N/2) = O(N)
+            //while (left <= right) {
+
+            //    // check the x points
+            //    box.minX = Math.Min(box.minX, Points[left].X);
+            //    box.maxX = Math.Max(box.maxX, Points[left].X);
+            //    box.maxY = Math.Max(box.maxY, Points[left].Y);
+            //    box.minY = Math.Min(box.minY, Points[left].Y);
+
+            //    box.minX = Math.Min(box.minX, Points[right].X);
+            //    box.maxX = Math.Max(box.maxX, Points[right].X);
+            //    box.maxY = Math.Max(box.maxY, Points[right].Y);
+            //    box.minY = Math.Min(box.minY, Points[right].Y);
+
+            //    left++;
+            //    right--;
+            //}
+
+            // return the bounding box
+            return box;
+            //REMOVE THIS LINE BEFORE START CODING
+            //throw new NotImplementedException();
+        }
+        #endregion 
+    }
+}

@@ -1,0 +1,122 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Problem
+{
+    public static class PROBLEM_CLASS
+    {
+        #region YOUR CODE IS HERE
+        //Your Code is Here:
+        //==================
+        /// <summary>
+        /// Ali Baba decides to go on a skating travel in the alpine mountain. He has stolen a pair of skis and a trail map listing 
+        /// the mountain’s surfaces and slopes (n in total), and he wants to ski from surface S to surface T where a treasure is exists. 
+        /// </summary>
+        /// <param name="vertices">array of surfaces and their elevations </param>
+        /// <param name="edges">array of trails and their lengths </param>
+        /// <param name="startVertex">name of the start surface to begin from it</param>
+        /// <returns>the minimum valid distance from source “S” to target “T”.</returns>
+        public static Dictionary<string, List<Tuple<string, int>>> graph = new Dictionary<string, List<Tuple<string, int>>>();
+        public static Dictionary<string, bool> visited = new Dictionary<string, bool>();
+        public static Stack<string> topologicalSortedStack = new Stack<string>();
+        public static Dictionary<string, int> distance = new Dictionary<string, int>();
+
+        static int GetAnswer(string start)
+        {
+
+            DFS(start);
+
+            // initialize the distance dictionary with infinity
+            foreach (KeyValuePair<string, List<Tuple<string, int>>> vertex in graph)
+            {
+                distance[vertex.Key] = int.MaxValue;
+            }
+
+            // set the distance of the start vertex to 0
+            distance[start] = 0;
+
+            // iterate over the topological sorted stack
+            while (topologicalSortedStack.Count > 0)
+            {
+                string current = topologicalSortedStack.Pop();
+
+                if (distance[current] != int.MaxValue)
+                {
+                    foreach (Tuple<string, int> child in graph[current])
+                    {
+                        if (distance[child.Item1] > distance[current] + child.Item2)
+                        {
+                            distance[child.Item1] = distance[current] + child.Item2;
+                        }
+                    }
+                }
+            }
+
+            return distance["T"];
+        }
+
+        static void DFS(string node)
+        {
+            visited[node] = true; // Mark the current node as visited
+
+            foreach (Tuple<string, int> child in graph[node])
+            {
+                if (!visited[child.Item1])
+                {
+                    DFS(child.Item1);
+                }
+            }
+
+            topologicalSortedStack.Push(node);
+        }
+
+        public static int RequiredFunction(Dictionary<string, int> vertices, Dictionary<KeyValuePair<string, string>, int> edges, string startVertex)
+        {
+            // clear everything before starting
+            graph.Clear();
+            visited.Clear();
+            topologicalSortedStack.Clear();
+            distance.Clear();
+
+            int from, to, weight;
+            string from_string, to_string;
+
+            // iterate over the vertices and initialize the graph and visited dictionary
+            foreach (KeyValuePair<string, int> vertex in vertices)
+            {
+                graph[vertex.Key] = new List<Tuple<string, int>>();
+                visited[vertex.Key] = false;
+            }
+
+            // construct the graph to make it DAG
+            foreach (KeyValuePair<KeyValuePair<string, string>, int> edge in edges)
+            {
+                from = vertices[edge.Key.Key];
+                from_string = edge.Key.Key;
+
+                to = vertices[edge.Key.Value];
+                to_string = edge.Key.Value;
+
+                weight = edge.Value;
+
+                if (from > to)
+                {
+                    graph[from_string].Add(new Tuple<string, int>(to_string, weight));
+                }
+                else
+                {
+                    graph[to_string].Add(new Tuple<string, int>(from_string, weight));
+                }
+            }
+
+            return GetAnswer(startVertex);
+
+            // REMOVE THIS LINE BEFORE START CODING
+            // throw new NotImplementedException();
+        }
+        #endregion
+    }
+}

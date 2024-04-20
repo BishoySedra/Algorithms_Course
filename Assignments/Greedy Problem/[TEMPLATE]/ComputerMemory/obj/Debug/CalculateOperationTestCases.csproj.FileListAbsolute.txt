@@ -1,0 +1,14 @@
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\[TEMPLATE & EXAMPLE]\[SOLUTION]\PROBLEM_NAME\obj\Debug\CalculateOperationTestCases.csproj.AssemblyReference.cache
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\[TEMPLATE & EXAMPLE]\[SOLUTION]\PROBLEM_NAME\obj\Debug\CalculateOperationTestCases.csproj.CoreCompileInputs.cache
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\[TEMPLATE & EXAMPLE]\[SOLUTION]\PROBLEM_NAME\bin\Debug\CalculateOperationTestCases.exe.config
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\[TEMPLATE & EXAMPLE]\[SOLUTION]\PROBLEM_NAME\bin\Debug\CalculateOperationTestCases.exe
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\[TEMPLATE & EXAMPLE]\[SOLUTION]\PROBLEM_NAME\bin\Debug\CalculateOperationTestCases.pdb
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\[TEMPLATE & EXAMPLE]\[SOLUTION]\PROBLEM_NAME\obj\Debug\CalculateOperationTestCases.exe
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\[TEMPLATE & EXAMPLE]\[SOLUTION]\PROBLEM_NAME\obj\Debug\CalculateOperationTestCases.pdb
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\Strange Computer\[SOLUTION]\PROBLEM_NAME\bin\Debug\Strange_Computer.exe.config
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\Strange Computer\[SOLUTION]\PROBLEM_NAME\bin\Debug\Strange_Computer.exe
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\Strange Computer\[SOLUTION]\PROBLEM_NAME\bin\Debug\Strange_Computer.pdb
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\Strange Computer\[SOLUTION]\PROBLEM_NAME\obj\Debug\CalculateOperationTestCases.csproj.AssemblyReference.cache
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\Strange Computer\[SOLUTION]\PROBLEM_NAME\obj\Debug\CalculateOperationTestCases.csproj.CoreCompileInputs.cache
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\Strange Computer\[SOLUTION]\PROBLEM_NAME\obj\Debug\Strange_Computer.exe
+C:\Users\MMG\Downloads\[TEMPLATE & EXAMPLE] (1)\Strange Computer\[SOLUTION]\PROBLEM_NAME\obj\Debug\Strange_Computer.pdb

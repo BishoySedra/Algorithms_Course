@@ -1,0 +1,101 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Problem
+{
+    public static class PROBLEM_CLASS
+    {
+        #region YOUR CODE IS HERE
+        //Your Code is Here:
+        //==================
+        /// <summary>
+        /// Ali Baba decides to go on a skating travel in the alpine mountain. He has stolen a pair of skis and a trail map listing 
+        /// the mountain’s surfaces and slopes (n in total), and he wants to ski from surface S to surface T where a treasure is exists. 
+        /// </summary>
+        /// <param name="vertices">array of surfaces and their elevations </param>
+        /// <param name="edges">array of trails and their lengths </param>
+        /// <param name="startVertex">name of the start surface to begin from it</param>
+        /// <returns>the minimum valid distance from source “S” to target “T”.</returns>
+        //public static int answer = int.MaxValue;
+        //public static int target;
+        //public static Dictionary<int, List<int>> graph = new Dictionary<int, List<int>>();
+        //public static Dictionary<KeyValuePair<int, int>, int> weights = new Dictionary<KeyValuePair<int, int>, int>();
+        //public static Dictionary<int, bool> visited = new Dictionary<int, bool>(); // Keep track of visited nodes
+
+        //static void DFS(int node, int distance)
+        //{
+        //    if (node == target)
+        //    {
+        //        answer = Math.Min(answer, distance);
+        //    }
+
+        //    visited[node] = true; // Mark the current node as visited
+
+        //    if (graph.ContainsKey(node))
+        //    {
+        //        foreach (var child in graph[node])
+        //        {
+        //            if (!visited.ContainsKey(child)) // Check if the child node is not visited
+        //            {
+        //                DFS(child, distance + weights[new KeyValuePair<int, int>(node, child)]);
+        //            }
+        //        }
+        //    }
+        //}
+
+        public static int RequiredFunction(Dictionary<string, int> vertices, Dictionary<KeyValuePair<string, string>, int> edges, string startVertex)
+        {
+            int start = vertices[startVertex];
+            int target = vertices["T"];
+
+            // Initialize variables
+            int minDistance = int.MaxValue;
+            Queue<int> queue = new Queue<int>();
+            Dictionary<int, int> distanceMap = new Dictionary<int, int>(); // Keep track of minimum distances
+
+            // Initialize distance from start to start as 0
+            distanceMap[start] = 0;
+            queue.Enqueue(start);
+
+            // BFS traversal
+            while (queue.Count > 0)
+            {
+                int current = queue.Dequeue();
+                int currentDistance = distanceMap[current];
+
+                // If we reach the target, update the minimum distance and continue
+                if (current == target)
+                {
+                    minDistance = Math.Min(minDistance, currentDistance);
+                    continue;
+                }
+
+                // Iterate through downhill slopes
+                foreach (var edge in edges)
+                {
+                    int from = vertices[edge.Key.Key];
+                    int to = vertices[edge.Key.Value];
+                    if (from == current && from > to)
+                    {
+                        int weight = edge.Value;
+
+                        // If next surface is not visited or the distance from start is less than recorded, update distance
+                        if (!distanceMap.ContainsKey(to) || currentDistance + weight < distanceMap[to])
+                        {
+                            distanceMap[to] = currentDistance + weight;
+                            queue.Enqueue(to);
+                        }
+                    }
+                }
+            }
+
+            return minDistance;
+            // REMOVE THIS LINE BEFORE START CODING
+            // throw new NotImplementedException();
+        }
+        #endregion
+    }
+}

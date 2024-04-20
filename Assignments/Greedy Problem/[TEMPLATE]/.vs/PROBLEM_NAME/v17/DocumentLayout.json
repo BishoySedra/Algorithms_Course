@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\problem_name\\helpers\\problembase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|solutionrelative:problem_name\\helpers\\problembase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\problem_name\\helpers\\iproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|solutionrelative:problem_name\\helpers\\iproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\problem_name\\helpers\\hardniesslevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|solutionrelative:problem_name\\helpers\\hardniesslevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|c:\\users\\mmg\\downloads\\[template \u0026 example] (1)\\strange computer\\[solution]\\problem_name\\strange_computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|solutionrelative:problem_name\\strange_computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\problem_name\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|solutionrelative:problem_name\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|c:\\users\\mmg\\downloads\\[template \u0026 example] (1)\\strange computer\\[solution]\\problem_name\\pnproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\CalculateOperationTestCases.csproj|solutionrelative:problem_name\\pnproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\ProblemName.csproj|C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\problem_name\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\ProblemName.csproj|solutionrelative:problem_name\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\ProblemName.csproj|C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\problem_name\\helpers\\hardniesslevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\ProblemName.csproj|solutionrelative:problem_name\\helpers\\hardniesslevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\ProblemName.csproj|C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\problem_name\\helpers\\iproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\ProblemName.csproj|solutionrelative:problem_name\\helpers\\iproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\ProblemName.csproj|C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\problem_name\\helpers\\problembase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\ProblemName.csproj|solutionrelative:problem_name\\helpers\\problembase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\ProblemName.csproj|C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\problem_name\\pnproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1119DE-3E7E-47F7-B32C-C8A9B28EA6CD}|PROBLEM_NAME\\ProblemName.csproj|solutionrelative:problem_name\\pnproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Program.cs",
+              "RelativeDocumentMoniker": "PROBLEM_NAME\\Program.cs",
+              "ToolTip": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Program.cs",
+              "RelativeToolTip": "PROBLEM_NAME\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwDcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T18:39:35.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProblem.cs",
+              "DocumentMoniker": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\IProblem.cs",
+              "RelativeDocumentMoniker": "PROBLEM_NAME\\Helpers\\IProblem.cs",
+              "ToolTip": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\IProblem.cs",
+              "RelativeToolTip": "PROBLEM_NAME\\Helpers\\IProblem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T18:34:26.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProblemBase.cs",
+              "DocumentMoniker": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\ProblemBase.cs",
+              "RelativeDocumentMoniker": "PROBLEM_NAME\\Helpers\\ProblemBase.cs",
+              "ToolTip": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\ProblemBase.cs",
+              "RelativeToolTip": "PROBLEM_NAME\\Helpers\\ProblemBase.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswCsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T18:32:14.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PNProblem.cs",
+              "DocumentMoniker": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\PNProblem.cs",
+              "RelativeDocumentMoniker": "PROBLEM_NAME\\PNProblem.cs",
+              "ToolTip": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\PNProblem.cs",
+              "RelativeToolTip": "PROBLEM_NAME\\PNProblem.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAgwI8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T18:31:22.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Strange_Computer.cs",
+              "DocumentMoniker": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Strange_Computer.cs",
+              "RelativeDocumentMoniker": "PROBLEM_NAME\\Strange_Computer.cs",
+              "ToolTip": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Strange_Computer.cs",
+              "RelativeToolTip": "PROBLEM_NAME\\Strange_Computer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:25:14.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProblemBase.cs",
+              "DocumentMoniker": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\ProblemBase.cs",
+              "RelativeDocumentMoniker": "PROBLEM_NAME\\Helpers\\ProblemBase.cs",
+              "ToolTip": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\[TEMPLATE \u0026 EXAMPLE]\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\ProblemBase.cs*",
+              "RelativeToolTip": "..\\..\\[TEMPLATE \u0026 EXAMPLE]\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\ProblemBase.cs*",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswDsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:25:14.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Program.cs",
+              "RelativeDocumentMoniker": "PROBLEM_NAME\\Program.cs",
+              "ToolTip": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Program.cs",
+              "RelativeToolTip": "PROBLEM_NAME\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:25:14.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HardniessLevel.cs",
+              "DocumentMoniker": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\HardniessLevel.cs",
+              "RelativeDocumentMoniker": "PROBLEM_NAME\\Helpers\\HardniessLevel.cs",
+              "ToolTip": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\HardniessLevel.cs",
+              "RelativeToolTip": "PROBLEM_NAME\\Helpers\\HardniessLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T18:38:47.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HardniessLevel.cs",
+              "DocumentMoniker": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\HardniessLevel.cs",
+              "RelativeDocumentMoniker": "PROBLEM_NAME\\Helpers\\HardniessLevel.cs",
+              "ToolTip": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\HardniessLevel.cs",
+              "RelativeToolTip": "PROBLEM_NAME\\Helpers\\HardniessLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T16:51:02.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProblem.cs",
+              "DocumentMoniker": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\IProblem.cs",
+              "RelativeDocumentMoniker": "PROBLEM_NAME\\Helpers\\IProblem.cs",
+              "ToolTip": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\Helpers\\IProblem.cs",
+              "RelativeToolTip": "PROBLEM_NAME\\Helpers\\IProblem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:25:14.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PNProblem.cs",
+              "DocumentMoniker": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\PNProblem.cs",
+              "RelativeDocumentMoniker": "PROBLEM_NAME\\PNProblem.cs",
+              "ToolTip": "C:\\Users\\MMG\\Downloads\\[TEMPLATE \u0026 EXAMPLE] (1)\\Strange Computer\\[SOLUTION]\\PROBLEM_NAME\\PNProblem.cs",
+              "RelativeToolTip": "PROBLEM_NAME\\PNProblem.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAYwEMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:25:14.725Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U11] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U11] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.csprojResolveAssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U11] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U11] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U11] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U11] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.csproj.AssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.csproj.CoreCompileInputs.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[SOLUTION]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[TEMPLATE]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[TEMPLATE]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[TEMPLATE]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.csproj.AssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.csproj.CoreCompileInputs.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\D&C\[U] PolygonBoundingBox\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.pdb
+D:\Study\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.exe.config
+D:\Study\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.exe
+D:\Study\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.pdb
+D:\Study\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.csproj.AssemblyReference.cache
+D:\Study\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.csproj.CoreCompileInputs.cache
+D:\Study\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.exe
+D:\Study\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.pdb
+D:\Study\Third Year\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.exe.config
+D:\Study\Third Year\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.exe
+D:\Study\Third Year\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\bin\Debug\PolygonBoundingBox.pdb
+D:\Study\Third Year\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.csproj.AssemblyReference.cache
+D:\Study\Third Year\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.csproj.CoreCompileInputs.cache
+D:\Study\Third Year\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.exe
+D:\Study\Third Year\Semester 6\Algo\Assignments\D&C Problem\[TEMPLATE]\PolygonBoundingBox\obj\Debug\PolygonBoundingBox.pdb
