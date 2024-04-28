@@ -1,0 +1,11 @@
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[4] Sum of Min\[SOLUTION]\SumOfMin\bin\Debug\SumOfMin.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[4] Sum of Min\[SOLUTION]\SumOfMin\obj\Debug\SumOfMin.csprojResolveAssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[4] Sum of Min\[SOLUTION]\SumOfMin\bin\Debug\SumOfMin.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[4] Sum of Min\[SOLUTION]\SumOfMin\bin\Debug\SumOfMin.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[4] Sum of Min\[SOLUTION]\SumOfMin\bin\Debug\GraphGenerator.dll
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[4] Sum of Min\[SOLUTION]\SumOfMin\bin\Debug\GraphGenerator.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[4] Sum of Min\[SOLUTION]\SumOfMin\obj\Debug\SumOfMin.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[4] Sum of Min\[SOLUTION]\SumOfMin\obj\Debug\SumOfMin.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[5] Community Detection\[SOLUTION]\CommunityDetection\bin\Debug\SumOfMin.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[5] Community Detection\[SOLUTION]\CommunityDetection\obj\Debug\SumOfMin.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[5] Community Detection\[SOLUTION]\CommunityDetection\obj\Debug\SumOfMin.pdb

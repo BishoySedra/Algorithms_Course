@@ -1,0 +1,11 @@
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[5] Community Detection\[SOLUTION]\CommunityDetection\bin\Debug\CommunityDetection.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[5] Community Detection\[SOLUTION]\CommunityDetection\obj\Debug\CommunityDetection.csprojResolveAssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[5] Community Detection\[SOLUTION]\CommunityDetection\bin\Debug\CommunityDetection.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[5] Community Detection\[SOLUTION]\CommunityDetection\bin\Debug\CommunityDetection.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[5] Community Detection\[SOLUTION]\CommunityDetection\bin\Debug\GraphGenerator.dll
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[5] Community Detection\[SOLUTION]\CommunityDetection\bin\Debug\GraphGenerator.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[5] Community Detection\[SOLUTION]\CommunityDetection\obj\Debug\CommunityDetection.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[5] Community Detection\[SOLUTION]\CommunityDetection\obj\Debug\CommunityDetection.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[6] Plagiarism Analysis\[SOLUTION]\PlagiarismAnalysis\bin\Debug\CommunityDetection.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[6] Plagiarism Analysis\[SOLUTION]\PlagiarismAnalysis\obj\Debug\CommunityDetection.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[6] Plagiarism Analysis\[SOLUTION]\PlagiarismAnalysis\obj\Debug\CommunityDetection.pdb

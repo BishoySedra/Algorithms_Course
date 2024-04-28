@@ -1,0 +1,9 @@
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R2] Max Drop\[SOLUTION]\MaxDrop\bin\Debug\MaxDrop.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R2] Max Drop\[SOLUTION]\MaxDrop\bin\Debug\MaxDrop.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R2] Max Drop\[SOLUTION]\MaxDrop\bin\Debug\MaxDrop.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R2] Max Drop\[SOLUTION]\MaxDrop\obj\Debug\MaxDrop.csprojResolveAssemblyReference.cache
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R2] Max Drop\[SOLUTION]\MaxDrop\obj\Debug\MaxDrop.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GREEDY\[R2] Max Drop\[SOLUTION]\MaxDrop\obj\Debug\MaxDrop.pdb
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[3 - AUTOGRADE] Is it a Tree\[SOLUTION]\IsItTree\bin\Debug\MaxDrop.exe.config
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[3 - AUTOGRADE] Is it a Tree\[SOLUTION]\IsItTree\obj\Debug\MaxDrop.exe
+E:\COURSES\Algorithms\[1] [ALL PROBLEMS - CODE]\UNIFIED OUTPUT\GRAPH\[3 - AUTOGRADE] Is it a Tree\[SOLUTION]\IsItTree\obj\Debug\MaxDrop.pdb
