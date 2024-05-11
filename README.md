@@ -8,5 +8,5 @@ All materials and assignments related to this academic course.
 - **Lectures:** [Link to Lectures](https://cisasuedu.sharepoint.com/:f:/r/sites/ALG24.Term2/Shared%20Documents/General/1%20Lecs?csf=1&web=1&e=hk01vY)
 - **Labs:** [Link to Labs](https://cisasuedu.sharepoint.com/:f:/r/sites/ALG24.Term2/Shared%20Documents/General/2%20Labs?csf=1&web=1&e=noPczf)
 - **Assignments:** [Link to Assignments](https://cisasuedu.sharepoint.com/:f:/r/sites/ALG24.Term2/Shared%20Documents/General/3%20Assignments?csf=1&web=1&e=fMZKF3)
-- **Project:** [Link to Project]([project_link](https://cisasuedu.sharepoint.com/:f:/r/sites/ALG24.Term2/Shared%20Documents/General/5%20Project?csf=1&web=1&e=h0Cs76)
+- **Project:** [Link to Project](https://cisasuedu.sharepoint.com/:f:/r/sites/ALG24.Term2/Shared%20Documents/General/5%20Project?csf=1&web=1&e=h0Cs76)
 - **Problem Sessions:** [Link to Problem Sessions](https://cisasuedu.sharepoint.com/:f:/r/sites/ALG24.Term2/Shared%20Documents/General/5%20Project?csf=1&web=1&e=h0Cs76)
