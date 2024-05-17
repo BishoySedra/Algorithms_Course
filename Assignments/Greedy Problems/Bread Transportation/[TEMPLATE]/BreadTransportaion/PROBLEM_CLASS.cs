@@ -25,18 +25,36 @@ namespace Problem
         static public  Int64 RequiredFunction(int N,int[] DemandPerHouse)
         {
 
-            // create dynamic array to store the sum of the demand of the houses
-            int[] prefixArray = new int[N];
-            prefixArray[0] = DemandPerHouse[0];
+            //// create dynamic array to store the sum of the demand of the houses
+            //int[] prefixArray = new int[N];
+            //prefixArray[0] = DemandPerHouse[0];
 
-            for (int i = 1; i < N; i++) {
-                prefixArray[i] = prefixArray[i - 1] + DemandPerHouse[i];
-            }
+            //// calculate the sum of the demand of the houses
+            //for (int i = 1; i < N; i++)
+            //{
+            //    prefixArray[i] = prefixArray[i - 1] + DemandPerHouse[i];
+            //}
 
-            Int64 sum = 0;
+            Int64 sum = 0, partial_sum = 0;
             for (int i = 0; i < N; i++)
             {
-                sum += Math.Abs(prefixArray[i]);
+                partial_sum += DemandPerHouse[i];
+
+                if (partial_sum < 0)
+                {
+                    sum -= partial_sum;
+                }
+                else
+                {
+                    sum += partial_sum;
+                }
+
+                //if (prefixArray[i] < 0)
+                //{
+                //    sum -= prefixArray[i];
+                //    continue;
+                //}
+                //sum += prefixArray[i];
             }
 
             return sum;

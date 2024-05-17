@@ -45,3 +45,12 @@ D:\Study\Third Year\Semester 6\Algo\Original Materials\Assignments\Greedy Proble
 D:\Study\Third Year\Semester 6\Algo\Original Materials\Assignments\Greedy Problem\Bread Transportation\[TEMPLATE]\BreadTransportaion\obj\Debug\BreadTransportation.csproj.CoreCompileInputs.cache
 D:\Study\Third Year\Semester 6\Algo\Original Materials\Assignments\Greedy Problem\Bread Transportation\[TEMPLATE]\BreadTransportaion\obj\Debug\BreadTransportation.exe
 D:\Study\Third Year\Semester 6\Algo\Original Materials\Assignments\Greedy Problem\Bread Transportation\[TEMPLATE]\BreadTransportaion\obj\Debug\BreadTransportation.pdb
+D:\Study\Third Year\Semester 6\Algo\Algorithms_Course\Assignments\Greedy Problems\Bread Transportation\[TEMPLATE]\BreadTransportaion\bin\Debug\BreadTransportation.exe.config
+D:\Study\Third Year\Semester 6\Algo\Algorithms_Course\Assignments\Greedy Problems\Bread Transportation\[TEMPLATE]\BreadTransportaion\bin\Debug\BreadTransportation.exe
+D:\Study\Third Year\Semester 6\Algo\Algorithms_Course\Assignments\Greedy Problems\Bread Transportation\[TEMPLATE]\BreadTransportaion\bin\Debug\BreadTransportation.pdb
+D:\Study\Third Year\Semester 6\Algo\Algorithms_Course\Assignments\Greedy Problems\Bread Transportation\[TEMPLATE]\BreadTransportaion\obj\Debug\BreadTransportation.csproj.AssemblyReference.cache
+D:\Study\Third Year\Semester 6\Algo\Algorithms_Course\Assignments\Greedy Problems\Bread Transportation\[TEMPLATE]\BreadTransportaion\obj\Debug\BreadTransportation.Properties.Resources.resources
+D:\Study\Third Year\Semester 6\Algo\Algorithms_Course\Assignments\Greedy Problems\Bread Transportation\[TEMPLATE]\BreadTransportaion\obj\Debug\BreadTransportation.csproj.GenerateResource.cache
+D:\Study\Third Year\Semester 6\Algo\Algorithms_Course\Assignments\Greedy Problems\Bread Transportation\[TEMPLATE]\BreadTransportaion\obj\Debug\BreadTransportation.csproj.CoreCompileInputs.cache
+D:\Study\Third Year\Semester 6\Algo\Algorithms_Course\Assignments\Greedy Problems\Bread Transportation\[TEMPLATE]\BreadTransportaion\obj\Debug\BreadTransportation.exe
+D:\Study\Third Year\Semester 6\Algo\Algorithms_Course\Assignments\Greedy Problems\Bread Transportation\[TEMPLATE]\BreadTransportaion\obj\Debug\BreadTransportation.pdb
