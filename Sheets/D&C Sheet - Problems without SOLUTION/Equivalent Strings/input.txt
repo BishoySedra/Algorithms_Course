@@ -1,0 +1,7 @@
+3
+aaba
+abaa
+aabb
+abab
+abcd
+acbd
