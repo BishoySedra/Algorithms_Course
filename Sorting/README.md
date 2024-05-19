@@ -1,28 +1,50 @@
-# Insertion Sort
+# Sorting Algorithms
+
+## Insertion Sort
 
 ![Insertion Sort](https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif)
 
-## Time Complexity
+### Time Complexity
 
 - Worst Case: O(n^2)
 - Best Case: O(n)
 
-# Selection Sort
+## Selection Sort
 
 ![Selection Sort](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*5WXRN62ddiM_Gcf4GDdCZg.gif)
 
-## Time Complexity
+### Time Complexity
 
 - Worst Case: O(n^2)
 - Average Case: O(n^2)
 - Best Case: O(n^2)
 
-# Bubble Sort
+## Bubble Sort
 
 ![Bubble Sort](https://miro.medium.com/v2/resize:fit:640/format:webp/1*7seGXJi3te9beNfpAvFXEQ.gif)
 
-## Time Complexity
+### Time Complexity
 
 - Worst Case: O(n^2)
 - Average Case: O(n^2)
 - Best Case: O(n^2)
+
+## Merge Sort
+
+![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
+
+### Time Complexity
+
+- Worst Case: O(n log n)
+- Average Case: O(n log n)
+- Best Case: O(n log n)
+
+## Quick Sort
+
+![Quick Sort](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+
+### Time Complexity
+
+- Worst Case: O(n^2)
+- Average Case: O(n log n)
+- Best Case: O(n log n)
