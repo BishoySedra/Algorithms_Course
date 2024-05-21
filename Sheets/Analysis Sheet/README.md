@@ -1,20 +1,20 @@
 # Asymptotic Analysis
 
-Asymptotic analysis is a fundamental concept in computer science used to describe the behaviour of algorithms as the input size grows. It helps in understanding the efficiency of algorithms in terms of time and space complexity.
+Asymptotic analysis is a fundamental concept in computer science used to describe the behavior of algorithms as the input size grows. It helps in understanding the efficiency of algorithms in terms of time and space complexity.
 
 ## Sigma Notation Rules
 
 ### Summation Formulas
 
-1. \(\sum_{i=0}^{\infty} a^i = \frac{1}{1 - a}\) where \(|a| < 1\)
-2. \(\sum_{i=0}^{n} a^i = \frac{a^{n+1} - 1}{a - 1}\) where \(|a| > 1\)
-3. \(\sum_{i=0}^{n} i = \frac{n(n + 1)}{2}\)
-4. \(\sum_{i=0}^{n} i^2 = \frac{n(n + 1)(2n + 1)}{6}\)
+1. \(\sum\_{i=0}^{\infty} a^i = \frac{1}{1 - a}\) where \(|a| < 1\)
+2. \(\sum\_{i=0}^{n} a^i = \frac{a^{n+1} - 1}{a - 1}\) where \(|a| > 1\)
+3. \(\sum\_{i=0}^{n} i = \frac{n(n + 1)}{2}\)
+4. \(\sum\_{i=0}^{n} i^2 = \frac{n(n + 1)(2n + 1)}{6}\)
 
 ## Important Notes
 
 1. \((\log N)^a < N^b\) for large \(N\) where \(a\) and \(b\) are constants.
-2. \(\sum_{i=1}^{n} i^k = O(N^{k+1})\).
+2. \(\sum\_{i=1}^{n} i^k = O(N^{k+1})\).
 
 ## Asymptotic Notations
 
@@ -50,5 +50,5 @@ where \(a \geq 1\) and \(b > 1\).
 
 1. **Calculate # Levels**: Trace input size.
 2. **Calculate the Complexity of Each Level**.
-3. **Calculate Complexity of Last Level**: Number of leaves \(*\) \(T(\text{base})\).
+3. **Calculate Complexity of Last Level**: Number of leaves \(\*\) \(T(\text{base})\).
 4. **Sum the Complexity**: Sum the complexity of each level and the last level.
