@@ -1,7 +1,5 @@
 # Asymptotic Analysis
 
-Asymptotic analysis is a fundamental concept in computer science used to describe the behavior of algorithms as the input size grows. It helps in understanding the efficiency of algorithms in terms of time and space complexity.
-
 ## Sigma Notation Rules
 
 ### Summation Formulas
