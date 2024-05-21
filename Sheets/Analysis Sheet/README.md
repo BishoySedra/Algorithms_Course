@@ -44,60 +44,11 @@ where \(a \geq 1\) and \(b > 1\).
 2. **Case 2:** If \(F(N) = θ(N^{\log_b a})\), then \(T(N) = θ(N^{\log_b a} \log N)\).
 3. **Case 3:** If \(F(N) = Ω(N^c)\) where \(c > \log_b a\), then \(T(N) = θ(F(N))\).
 
-![Master Method](inserted_photo_here)
+![Master Method](https://raw.githubusercontent.com/BishoySedra/Algorithms_Course/main/Sheets/Analysis%20Sheet/Master_Method.png)
 
 ## Recursion Tree Solution Steps
 
 1. **Calculate # Levels**: Trace input size.
-2. **Calculate Complexity of Each Level**.
+2. **Calculate the Complexity of Each Level**.
 3. **Calculate Complexity of Last Level**: Number of leaves \(*\) \(T(\text{base})\).
 4. **Sum the Complexity**: Sum the complexity of each level and the last level.
-
-## Merge Sort
-
-![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
-
-### Time Complexity
-
-- Worst Case: \(O(n \log n)\)
-- Average Case: \(O(n \log n)\)
-- Best Case: \(O(n \log n)\)
-
-## Quick Sort
-
-![Quick Sort](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
-
-### Time Complexity
-
-- Worst Case: \(O(n^2)\)
-- Average Case: \(O(n \log n)\)
-- Best Case: \(O(n \log n)\)
-
-## Insertion Sort
-
-![Insertion Sort](https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif)
-
-### Time Complexity
-
-- Worst Case: \(O(n^2)\)
-- Best Case: \(O(n)\)
-
-## Selection Sort
-
-![Selection Sort](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*5WXRN62ddiM_Gcf4GDdCZg.gif)
-
-### Time Complexity
-
-- Worst Case: \(O(n^2)\)
-- Average Case: \(O(n^2)\)
-- Best Case: \(O(n^2)\)
-
-## Bubble Sort
-
-![Bubble Sort](https://miro.medium.com/v2/resize:fit:640/format:webp/1*7seGXJi3te9beNfpAvFXEQ.gif)
-
-### Time Complexity
-
-- Worst Case: \(O(n^2)\)
-- Average Case: \(O(n^2)\)
-- Best Case: \(O(n)\)
