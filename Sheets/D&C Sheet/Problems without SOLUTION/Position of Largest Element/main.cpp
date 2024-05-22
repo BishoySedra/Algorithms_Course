@@ -15,37 +15,17 @@
 
 using namespace std;
 
-int indexOfLargestElement(int *arr, int start, int end, int maxNumber, int targetIndex)
+int indexOfLargestElement(int *arr, int start, int end)
 {
     if (start >= end)
     {
-        if (arr[start] > maxNumber)
-        {
-            // cout << "Max number: " << arr[start] << el;
-            return start;
-        }
-
-        if (arr[end] > maxNumber)
-        {
-            // cout << "Max number: " << arr[end] << el;
-            return end;
-        }
-
-        // cout << "Max number: " << arr[targetIndex] << el;
-        // cout << "maxNumber: " << maxNumber << el;
-        return targetIndex;
+        return start;
     }
 
     int mid = start + (end - start) / 2;
 
-    if (arr[mid] > maxNumber)
-    {
-        targetIndex = mid;
-        maxNumber = arr[mid];
-    }
-
-    int firstHalf = indexOfLargestElement(arr, start, mid - 1, maxNumber, targetIndex);
-    int secondHalf = indexOfLargestElement(arr, mid + 1, end, maxNumber, targetIndex);
+    int firstHalf = indexOfLargestElement(arr, start, mid - 1);
+    int secondHalf = indexOfLargestElement(arr, mid + 1, end);
 
     return arr[firstHalf] > arr[secondHalf] ? firstHalf : secondHalf;
 }
@@ -54,12 +34,12 @@ void solve()
 {
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     int n = sizeof(arr) / sizeof(arr[0]);
-    cout << indexOfLargestElement(arr, 0, n - 1, INT_MIN, -1) << el;
+    cout << indexOfLargestElement(arr, 0, n - 1) << el; // 8
 
     // another test case
     int arr2[] = {1, 2, 3, 10, 4, 5, 6, 7, 8, 9};
     int m = sizeof(arr2) / sizeof(arr2[0]);
-    cout << indexOfLargestElement(arr2, 0, m - 1, INT_MIN, -1) << el;
+    cout << indexOfLargestElement(arr2, 0, m - 1) << el; // 3
 }
 
 int main()
