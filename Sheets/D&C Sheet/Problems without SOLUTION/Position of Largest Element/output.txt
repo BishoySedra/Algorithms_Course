@@ -1,3 +1,0 @@
-The position of the largest element in the array is: 5
-The position of the largest element in the array is: 0
-The position of the largest element in the array is: 2

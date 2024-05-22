@@ -38,34 +38,36 @@ bool isCommonElementsFound(int *A, int startA, int endA, int *B, int m)
 
 void solve()
 {
-    int n, m;
-    cin >> n >> m;
-    int *A = new int[n];
-    int *B = new int[m];
+    int A[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int B[] = {10, 11, 12, 13, 14, 15, 16, 17, 18, 19};
+    int n = sizeof(A) / sizeof(A[0]);
+    int m = sizeof(B) / sizeof(B[0]);
 
-    forN(n)
-    {
-        cin >> A[i];
-    }
+    bool answer = isCommonElementsFound(A, 0, n - 1, B, m);
 
-    forN(m)
-    {
-        cin >> B[i];
-    }
+    cout << (answer ? "YES" : "NO") << el;
 
-    cout << (isCommonElementsFound(A, 0, n - 1, B, m) ? "Yes" : "No") << el;
+    // another test case
+    int A2[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int B2[] = {10, 11, 12, 13, 14, 9, 15, 16, 17, 18, 9};
+    n = sizeof(A2) / sizeof(A2[0]);
+    m = sizeof(B2) / sizeof(B2[0]);
+
+    answer = isCommonElementsFound(A2, 0, n - 1, B2, m);
+
+    cout << (answer ? "YES" : "NO") << el;
 }
 
 int main()
 {
-    file;
+    // file;
     boost;
-    ll t;
-    cin >> t;
-    while (t--)
-    {
-        solve();
-    }
-    // solve();
+    // ll t;
+    // cin >> t;
+    // while (t--)
+    // {
+    //     solve();
+    // }
+    solve();
     return 0;
 }

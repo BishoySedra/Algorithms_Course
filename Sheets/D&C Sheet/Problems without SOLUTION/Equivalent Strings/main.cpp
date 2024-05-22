@@ -38,21 +38,28 @@ bool areEquivalentStrings(string a, string b)
 void solve()
 {
     string word1, word2;
-    cin >> word1 >> word2;
+    word1 = "aaba";
+    word2 = "abaa";
     bool answer = areEquivalentStrings(word1, word2);
+    cout << (answer ? "YES" : "NO") << el;
+
+    // another test case
+    word1 = "aabb";
+    word2 = "abab";
+    answer = areEquivalentStrings(word1, word2);
     cout << (answer ? "YES" : "NO") << el;
 }
 
 int main()
 {
-    file;
+    // file;
     boost;
-    ll t;
-    cin >> t;
-    while (t--)
-    {
-        solve();
-    }
-    // solve();
+    // ll t;
+    // cin >> t;
+    // while (t--)
+    // {
+    //     solve();
+    // }
+    solve();
     return 0;
 }

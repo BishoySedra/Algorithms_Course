@@ -15,30 +15,63 @@
 
 using namespace std;
 
-void solve()
+int indexOfLargestElement(int *arr, int start, int end, int maxNumber, int targetIndex)
 {
-    int n;
-    cin >> n;
-    int *A = new int[n];
-
-    forN(n)
+    if (start >= end)
     {
-        cin >> A[i];
+        if (arr[start] > maxNumber)
+        {
+            // cout << "Max number: " << arr[start] << el;
+            return start;
+        }
+
+        if (arr[end] > maxNumber)
+        {
+            // cout << "Max number: " << arr[end] << el;
+            return end;
+        }
+
+        // cout << "Max number: " << arr[targetIndex] << el;
+        // cout << "maxNumber: " << maxNumber << el;
+        return targetIndex;
     }
 
-    cout << "The position of the largest element in the array is: " << getMaxNumberPosition(A, 0, n - 1, 0, A[0]) << el;
+    int mid = start + (end - start) / 2;
+
+    if (arr[mid] > maxNumber)
+    {
+        targetIndex = mid;
+        maxNumber = arr[mid];
+    }
+
+    int firstHalf = indexOfLargestElement(arr, start, mid - 1, maxNumber, targetIndex);
+    int secondHalf = indexOfLargestElement(arr, mid + 1, end, maxNumber, targetIndex);
+
+    return arr[firstHalf] > arr[secondHalf] ? firstHalf : secondHalf;
+}
+
+void solve()
+{
+    int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    cout << indexOfLargestElement(arr, 0, n - 1, INT_MIN, -1) << el;
+
+    // another test case
+    int arr2[] = {1, 2, 3, 10, 4, 5, 6, 7, 8, 9};
+    int m = sizeof(arr2) / sizeof(arr2[0]);
+    cout << indexOfLargestElement(arr2, 0, m - 1, INT_MIN, -1) << el;
 }
 
 int main()
 {
-    file;
+    // file;
     boost;
-    ll t;
-    cin >> t;
-    while (t--)
-    {
-        solve();
-    }
-    // solve();
+    // ll t;
+    // cin >> t;
+    // while (t--)
+    // {
+    //     solve();
+    // }
+    solve();
     return 0;
 }
