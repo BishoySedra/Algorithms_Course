@@ -1,0 +1,64 @@
+//V is an input 1D array of size N (1-based)
+
+int mem[N];
+ST(N)
+ if (N = 0) return 0;
+ if (N = 1) return V[1];
+ if (mem[N] != -1) return mem[N];
+ return mem[N] = max(V[N] + ST(N-2), ST(N-1));
+
+-----------------------------------------------------------
+
+const int MAX_H = some value;
+const int MAX_N = some value;
+M(H,N):
+dp[MAX_H][MAX_N];
+for(int h = 0; h <= H; h++){
+	for(int n = 0; n <= N; n++){
+		if(h == 0){
+			int T = 1;
+			for(int i = 1; i <= N; i++){
+				T *= P[0, i];
+			}
+			dp[h][n] = T;
+			continue;
+		}
+
+		if(n == 1){
+			do[h][n] = p[h,1];
+			continue;
+		}
+
+		int T = INT_MAX;
+		for(int i = 0; i < H; i++){
+			T = min(T, p[i][n] * dp[h-i][n-i]);
+		}
+		dp[h][n] = T;
+	}
+}
+
+return dp[H][N];
+
+M(H,N)
+	dp[MAX_H_VALUE][MAX_N_VALUE];
+	for h = 0 to H
+	 for n = 0 to N
+	  if(h == 0)
+	   	T = 1
+	   	for i = 1 to N
+	     	   T *= P[0, i];
+	  	dp[h][n] = T;
+	   	continue;
+	
+	  if(n == 1)
+		dp[h][n] = P[h,1];
+		continue;
+
+	
+	T = INT_MAX;
+	for i = 0 to H
+	  T = min(T, P[i,n] * dp[h-i][n-i]);	  
+	
+	dp[h][n] = T;
+	
+	return dp[H][N];
