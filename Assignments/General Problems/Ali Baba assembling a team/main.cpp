@@ -53,7 +53,7 @@ void solve()
 
 int main()
 {
-    file;
+    // file; // uncomment this line to enable file input/output
     boost;
     ll t;
     cin >> t;
