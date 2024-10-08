@@ -15,27 +15,45 @@
 
 using namespace std;
 
-int fastPower(int number, int power)
+int unimodal_search(vector<int> arr, int start, int end)
 {
-    if (power == 1)
+    // step: base case
+    if (start == end)
     {
-        return number;
+        return arr[start];
     }
 
-    int partial_answer = fastPower(number, power / 2);
+    // step: divide
+    int mid = start + (end - start) / 2;
 
-    if (power % 2 == 0)
+    // step: check if mid is the peak
+    if (arr[mid] > arr[mid - 1] && arr[mid] > arr[mid + 1])
     {
-        return partial_answer * partial_answer;
+        return arr[mid];
     }
-
-    return partial_answer * partial_answer * number;
+    else if (arr[mid] > arr[mid - 1] && arr[mid] < arr[mid + 1])
+    {
+        return unimodal_search(arr, mid + 1, end);
+    }
+    else
+    {
+        return unimodal_search(arr, start, mid - 1);
+    }
 }
 
 void solve()
 {
-    int number = 2, power = 3;
-    cout << fastPower(number, power) << el;
+    int n;
+    cin >> n;
+
+    vector<int> arr(n);
+
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+
+    cout << unimodal_search(arr, 0, n - 1) << el;
 }
 
 int main()
